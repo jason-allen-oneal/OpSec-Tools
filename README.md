@@ -2,6 +2,10 @@
 
 A comprehensive, security-focused toolkit for installing and running privacy and anonymity tools across multiple platforms. This project provides hardened installation and management scripts for Tor Browser, I2P, and ProxyChains-NG with enterprise-grade security features.
 
+## WIP / Maintenance Note
+
+The Windows installer is not fully release-ready: its I2P verification path still contains a placeholder hash. Do not treat download verification as complete on Windows until that value is replaced with a verified upstream checksum and the installer is retested.
+
 ## 🛡️ Security Features
 
 ### ✅ **Fixed Critical Issues**
@@ -344,4 +348,3 @@ This software is provided for educational and legitimate privacy purposes only. 
 **Version**: 1.0.0  
 **Last Updated**: $(date +%Y-%m-%d)  
 **Supported Platforms**: Linux (Debian/Ubuntu), macOS 10.14+, Windows 10/11
-
